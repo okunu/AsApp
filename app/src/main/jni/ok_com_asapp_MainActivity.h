@@ -30,6 +30,14 @@ JNIEXPORT jstring JNICALL Java_ok_com_asapp_MainActivity_getStringFromNative
 JNIEXPORT void JNICALL Java_ok_com_asapp_MainActivity_gaussBlue
   (JNIEnv *, jobject, jobject);
 
+/*
+ * Class:     ok_com_asapp_MainActivity
+ * Method:    blurIntArray
+ * Signature: ([IIII)V
+ */
+JNIEXPORT void JNICALL Java_ok_com_asapp_MainActivity_blurIntArray
+  (JNIEnv *, jobject, jintArray, jint, jint, jint);
+
 #ifdef __cplusplus
 }
 #endif
