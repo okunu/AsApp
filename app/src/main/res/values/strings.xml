@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">AsApp</string>
-    <string name="change">转换</string>
+    <string name="click">高斯模糊</string>
 </resources>

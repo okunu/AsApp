@@ -11,9 +11,9 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
-            moduleName "hello"       //生成的so文件名字，调用C程序的代码中会用到该名字
+            moduleName "ImageBlur"       //生成的so文件名字，调用C程序的代码中会用到该名字
             abiFilters "armeabi", "armeabi-v7a", "x86" //输出指定三种平台下的so库
-            ldLibs "log","jnigraphics","android"
+            ldLibs "log", "jnigraphics", "android"    //jni中需要用到的其它库
         }
     }
     buildTypes {

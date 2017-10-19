@@ -1,4 +1,4 @@
-package ok.com.asapp;
+package com.okunu.app;
 
 import org.junit.Test;
 

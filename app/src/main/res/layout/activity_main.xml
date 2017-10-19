@@ -4,41 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ok.com.asapp.MainActivity">
+    android:id="@+id/main_content"
+    tools:context="com.okunu.app.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv"
-        android:layout_centerHorizontal="true"
-        android:text="Hello World!"
-         />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/tv"
-        android:text="@string/change"
-        />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/img"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/btn"
-        android:layout_marginTop="20dp"
-        android:src="@mipmap/timg"
-        />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/guassImg"
-        android:layout_below="@id/img"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        />
 
 </RelativeLayout>

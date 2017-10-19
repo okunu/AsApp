@@ -1,4 +1,4 @@
-package ok.com.asapp;
+package com.okunu.app;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ok.com.asapp", appContext.getPackageName());
+        assertEquals("com.okunu.app", appContext.getPackageName());
     }
 }
